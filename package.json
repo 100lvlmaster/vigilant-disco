@@ -5,14 +5,18 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node-dev src/index.ts"
+    "dev": "ts-node-dev src/server.ts"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@overnightjs/core": "^1.7.6",
+    "axios": "^0.26.1",
     "body-parser": "^1.19.2",
     "class-validator": "^0.13.2",
+    "dotenv": "^16.0.0",
     "express": "^4.17.3",
+    "jet-logger": "^1.1.5",
     "pg": "^8.7.3",
     "reflect-metadata": "^0.1.13",
     "typeorm": "^0.2.45"
